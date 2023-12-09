@@ -31,6 +31,12 @@ Here is a link to the documentation page on dockerhub  https://docs.docker.com/d
 
 ## Grading: 10 points if I can use dockerhub to use your image and see the png generated
 
+<img width="507" alt="Screenshot by Snip My on Dec 9, 2023 at 2 25 02 PM" src="https://github.com/DS5111-FALL2023/kyd3zj_D5111_10_2_docker_base/assets/111662645/d469c2f5-de63-438a-b7a8-c37af31b5c67">
+
+<img width="868" alt="Screenshot by Snip My on Dec 9, 2023 at 2 29 15 PM" src="https://github.com/DS5111-FALL2023/kyd3zj_D5111_10_2_docker_base/assets/111662645/c20543ca-aae2-456d-8ddb-9f2715cf35fb">
+
+<img width="878" alt="Screenshot by Snip My on Dec 9, 2023 at 2 34 26 PM" src="https://github.com/DS5111-FALL2023/kyd3zj_D5111_10_2_docker_base/assets/111662645/c6ba9658-5561-42dd-af45-511135ddec09">
+
 ## Notes:
 * Some student's were not able to reproduce with this makefile.  The docker push got a `resource denied`
     - Solutuion was to rebuild the image with a full tag, so changing build and push in makefile to do this worked.
