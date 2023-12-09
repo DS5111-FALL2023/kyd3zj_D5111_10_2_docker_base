@@ -20,12 +20,12 @@ interbash:
 # login to dockerhub
 .PHONY: login
 login:
-	docker login -u "DOCKER_USER"
+	docker login -u "kyd3zj"
 
 # now push your image to dockerhub
 .PHONY: push
 push:
-	docker push <DOCKER_USER>/<DOCKER_REPO>:latest
+	docker push kyd3zj/ds5111_kyd3zj:latest
 
 
 
